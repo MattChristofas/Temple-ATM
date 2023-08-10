@@ -1,2 +1,4 @@
 # Temple-ATM
 This program is an excellent little program that acts just like an ATM.
+
+The program will begin with a greeting to the user and a prompt for the user's PIN number. The current PIN is set to 3014, but this can easily be changed to your liking. If an incorrect PIN is entered, the ATM will grant the user 3 more attempts to input the correct PIN. If the correct PIN is not entered, the program will print an incorrect PIN message and end. However, if the correct PIN is entered, the user terminal will display 4 different transaction types. You can choose a transaction type by entering the associated integer value with the keyboard. The balance will always start at $5,000 but can be changed with the other transaction-type options (withdrawal/deposition). Once the user is finished with the program, enter 4 to quit. This will print the number of transactions and prompt the user if they would like a receipt.
